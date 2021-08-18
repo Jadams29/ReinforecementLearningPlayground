@@ -74,9 +74,9 @@ class WindowCapture:
         win32gui.ReleaseDC(hdesktop, hwndDC)
         img = np.array(image)
         img = img[:, :, ::-1]
-        img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        # img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         self.entireFrame = np.copy(img)
-        return img
+        return cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     def list_window_names(self):
         def winEnumHandler(hwnd, ctx):

@@ -1,0 +1,25 @@
+D-Pad:
+	- Up -> (Button 17) => W
+	- Left -> (Button 30) => A
+	- Down -> (Button 31) => S
+	- Right -> (Button 32) => D
+
+Triggers:
+	- Left Trigger ->  (Button 16) => Q
+	- Right Trigger ->  (Button 18) => E
+	
+Bumpers:
+	- Left Bumper ->  (Button 2) => 1
+	- Right Bumper ->  (Button 4) => 3
+	
+Left Stick:
+	- Up -> (Button 23) => I
+	- Left -> (Button 36) => J
+	- Down -> (Button 37) => K
+	- Right -> (Button 38) => L
+	
+Right Stick:
+	- Up -> (Button 72) => 
+	- Left -> (Button 75) => 
+	- Down -> (Button 80) => 
+	- Right -> (Button 77) => 

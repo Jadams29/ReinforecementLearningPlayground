@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.csv
+Borderlands/Data/Results/RewardsDuringTraining_Episode_100.csv
